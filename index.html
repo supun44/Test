@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ElectroMart | Electronic Items Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav>
+        <h1>ElectroMart</h1>
+        <button id="cart-button">Cart (<span id="cart-count">0</span>)</button>
+      </nav>
+      <div class="hero-copy">
+        <h2>Your one-stop shop for electronics</h2>
+        <p>Find premium gadgets, accessories, and smart home devices at great prices.</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="filters">
+        <label for="search">Search items</label>
+        <input id="search" type="text" placeholder="Search electronics..." />
+      </section>
+
+      <section>
+        <h3>Featured Products</h3>
+        <div id="product-grid" class="product-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 ElectroMart. Fast shipping and secure checkout.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
